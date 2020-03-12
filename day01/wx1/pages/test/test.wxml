@@ -1,0 +1,10 @@
+<!--pages/test/test.wxml-->
+<!--样式-->
+<view class="container">
+  <text>组件练习</text>
+  <image src="/pages/img/blue.png" lazy-load='true' mode="aspectFill"></image>
+  <!--14:21-->
+  <text selectable="true">
+    {{msg}}
+  </text>
+</view>

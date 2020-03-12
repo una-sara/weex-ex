@@ -1,0 +1,12 @@
+/**index.wxss**/
+.box{
+  width:350px;
+  height:320px;
+  background:#ddd;
+  font-size:12px;
+}
+
+.box image{
+  width:120px;
+  height:80px;
+}

@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<view class="box">
+   <text>小程序标签</text>
+   <view>123</view>
+   <view>456</view>
+   <!--本地绝对路径-->
+   <image src="/pages/img/blue.png" lazy-load  mode="aspectFill"></image>
+   <!--网络绝对路径-->
+   <image src="https://www.baidu.com/img/bd_logo1.png"  lazy-load mode="aspectFill"></image>
+</view>

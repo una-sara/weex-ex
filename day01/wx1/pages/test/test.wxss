@@ -1,0 +1,7 @@
+/* pages/test/test.wxss */
+.container{
+  background: #ddd;
+  font-size:12px;
+  border:1px solid red;
+  width:750rpx;
+}
