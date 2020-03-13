@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 跳转exam01组件中-->
+  <navigator url="/pages/exam01/exam01">
+    跳转exam01组件
+  </navigator>
+  <!-- 跳转logs组件中-->
+  <navigator url="/pages/logs/logs">
+    跳转logs组件
+  </navigator>
+  <view>编程方式跳转:方式一</view>
+  <view bindtap="handleJump1">卸载跳转</view>
+  <view>编程方式跳转:方式二</view>
+  <view bindtap="handleJump2">保留跳转</view>
+  <view>编程方式跳转:方式三</view>
+  <view bindtap="handleJump3">跳转哪都可以跳转</view>
+  <view>编程方式跳转:传递参数</view>
+  <view bindtap="handleJump4">跳转并传递参数</view>
+  <view>练习</view>
+  <view bindtap="handleUname">{{uname}}</view>
+  <view>练习</view>
+  <view>{{obj.lname}}{{obj.price}}</view>
+
+
+
+
+
+
+
+
+
+</view>

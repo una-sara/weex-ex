@@ -1,0 +1,19 @@
+<!--pages/shoplist/shoplist.wxml-->
+<!--美食列表组件 一个商品信息-->
+<view class="shop">
+  <!-- 美食图片-->
+  <image src="" class="shop-img"></image>
+  <!--店铺信息-->
+  <view class="shop-info">
+     <text class="shop-title">店铺名称:文博大厦</text>
+     <text class="shop-tel">电话:13999999999</text>
+     <text class="shop-address">地址:万寿路 </text>
+     <text class="shop-time">营业时间:9:00~21:00</text>
+  </view>
+  <!--打分-->
+  <view class="shop-star">
+     <view class="star-after">★★★★★</view>
+     <view class="star-before">★★★★★</view>
+  </view>
+</view>
+
