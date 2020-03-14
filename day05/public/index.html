@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    
+    <h3>day06/public/index.html</h3>
+    <h3>day06/app.js</h3>
+    <h3>day06/upload</h3>
+    <!--
+    为什么在表单中添加属性
+    enctype="multipart/form-data"
+    表单传输数据默认按照字符串方式发送 
+     "name:tom"
+    此种方式不能传递 图片/音频/视频/docx...
+    修改表单传输数据默认格式 二进制
+    二进制格式:图片/音频/视频 传递都可以
+    -->
+    <form action="http://127.0.0.1:3000/upload"
+     method="POST" enctype="multipart/form-data">
+     选择头像:
+     <input type="file" name="mypic" />
+     <br />
+     <input type="submit" value="上传文件" />
+    </form>
+</body>
+</html>
+
+
+
+

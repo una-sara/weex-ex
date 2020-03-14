@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/myupload/myupload",
+    "pages/backAudio/backAudio",
+    "pages/success/success",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

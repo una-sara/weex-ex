@@ -1,0 +1,18 @@
+<!--pages/search/search.wxml-->
+<!--输入框和按钮-->
+<view class="card">
+  <form bindsubmit='searchProduct'>
+    <view class="cell-item">
+        <input type="text" placeholder='请输入搜索商品名称' name="name" />
+    </view>
+    <view class="cell-item">
+        <button formType="submit">搜索商品</button>
+    </view>
+  </form>
+</view>
+<!--搜索结果列表-->
+<view class="card">
+  <view class="cell-item" wx:for="{{rows}}" wx:key="index">
+    {{item.lname}}   {{item.price}}
+  </view>
+</view>
